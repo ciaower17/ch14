@@ -44,11 +44,12 @@ $(".btn").click(function () {
             monthvalue++;
         }
         
-    }
-
+        
     $(".y").text(yearvalue);
     $(".d").text(dayvalue);
     $(".m").text(monthvalue);
+    }
+
 });
 
 function checkDay(day,month,year){
